@@ -1,0 +1,158 @@
+@keyframes jogging {
+    0% {
+      /* initialCommand */
+      transform: translateX(-450px);
+    }
+  
+    50%{
+    }
+  
+    100% {
+      /* finalCommand */
+      transform: translateX(110vw);
+    }
+  }
+  @keyframes makeBall {
+      0% {
+        /* initialCommand */
+        border:solid blue;
+      }
+    
+      50%{
+          border-radius:50%
+      }
+    
+      100% {
+        /* finalCommand */
+  border-radius:50%;
+      }
+    }
+@keyframes juiced{
+    0%{
+       transform: translateY(0vh) 
+    }
+    100%{
+    transform:translateY(-30vh)
+    }
+}
+  
+  
+    /* --------- */
+.powerUp{
+    /* border: solid red; */
+    height: 25vh;
+    width: 25vw;
+    margin-left: 100px;
+}
+.star{
+    height: 320px;
+    width: 420px;
+    
+}
+
+    
+
+
+.jumping{
+    animation: juiced 2s ease-in-out infinite
+}
+
+
+
+
+    .box{
+    /* border: solid blue; */
+    height: 120px;
+    width: 120px;
+}
+.circle{
+    border: solid red;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.bio{
+    border: solid purple;
+    height: 32vh;
+    width: 100%;
+    padding:1em;
+    text-align: center;
+    background-color: green; 
+}
+.jordan{
+    display: flex;
+}
+.j23{
+    width: 50%;
+}
+.disappear{
+    display: none;
+}
+
+.music{
+    border: solid black;
+    height: 200px;
+    width: 200px;
+}
+.roll{
+    border: solid black;
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+}
+.young{
+    border: solid black;
+    height: 200px;
+    width: 200px;
+}
+.baby{
+    border: solid black;
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-image: url("https://raisingchildren.net.au/__data/assets/image/0024/47742/baby-behaviour-and-awareness.jpg");
+}
+
+.old{
+    border: solid black;
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-image: url("https://img.huffingtonpost.com/asset/5bb6678b250000360039a150.jpeg?ops=scalefit_720_noupscale");
+}
+.circle{
+    border:solid pink;
+    border-radius:50%;
+    height:100px;
+    width:100px;
+}
+.box{
+    border:solid red;
+    height:100px;
+    width:100px;
+    border-radius:0%;
+}
+.changeBG{
+    border:solid red;
+    height:100px;
+    width:100px;
+    background-color: blueviolet;
+}
+.dog{
+    border:solid blue;
+}
+.runner {
+    height: 140px;
+}
+.running {
+    border: solid blue;
+    animation: jogging 13s ease-in-out infinite;
+  }
+  
+  
+.sphere{
+height:90px;
+width:90px;
+border:solid green;
+animation: makeBall 8s ease-out infinite
+}
